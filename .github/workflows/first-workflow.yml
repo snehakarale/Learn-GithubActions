@@ -1,0 +1,20 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI                         # Name of Workflow
+
+on: workflow_dispatch            # Define events which will trigger the workflow (here workflow_dispatch manually triggers workflow).
+
+jobs:
+  first-job:                     # name of job
+    runs-on: ubuntu-latest
+    steps:
+      - name: first-step          #name of 1st step
+        run: echo "Hello World"
+
+      - name: second-step         #name of 2nd step
+        run: echo "bye"
+
+
+
+
+
