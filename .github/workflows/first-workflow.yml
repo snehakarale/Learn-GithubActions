@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI                         # Name of Workflow
+name: Workflow1                         # Name of Workflow
 
 on: workflow_dispatch            # Define events which will trigger the workflow (here workflow_dispatch manually triggers workflow).
 
